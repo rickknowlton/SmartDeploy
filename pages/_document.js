@@ -7,6 +7,10 @@ export default function Document() {
       className="uk-background-white dark:uk-background-gray-100 dark:uk-text-gray-20"
     >
       <Head>
+        <link
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet"
+        />
         <link rel="favicon" href="/favicon.ico" />
         <title>SmartDeploy || Ready. Set. SmartDeploy.</title>
       </Head>
