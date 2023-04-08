@@ -5,7 +5,7 @@
  * 01. Common Helpers files (Do not edit any for updates.)
  * 02. User Helpers files (A place for you to edit)
  * 03. Core Framewoork (Do not edit any for updates.)
- * 04. Template Ovrerides
+ * 04. Template Overrides
  * 05. Custom CSS (A place for you to edit)
  */
 @import url(https://cdn.jsdelivr.net/npm/swiper@8.3.2/swiper-bundle.min.css);
@@ -4169,6 +4169,7 @@ html:not(.bp-l) .uni-header.uk-dark .uni-header-navbar.uk-active {
 html {
   font-family: var(--body-font-typeface, system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif);
   color: var(--body-color-text);
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: "zero" on
@@ -24677,9 +24678,6 @@ option {
   background-color: #131313;
   color: #fff
 }
-.object-x {
-  display: none;
-}
 @media (min-width:960px){
   #uni_connect_wallet .uk-grid-stack,
 #uni_connect_wallet.uk-modal-full .uk-modal-dialog{
@@ -24789,4 +24787,9 @@ option {
     flex:unset;
    }
   
+}
+@media (max-width: 767px) {
+  .object-x {
+      display: none;
+    }
 }

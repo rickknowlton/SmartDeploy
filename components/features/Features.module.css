@@ -1,0 +1,7 @@
+/* HomeThreeMinting.module.css */
+@media (max-width: 767px) {
+    .fixMargin {
+      margin: 0 0 0 12px !important;
+    }
+  }
+  

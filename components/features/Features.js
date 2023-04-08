@@ -1,8 +1,10 @@
-const HomeThreeMinting = () => {
+import styles from "./Features.module.css";
+
+const Features = () => {
   return (
     <div
       id="uni_features"
-      className="uni-minting uk-section uk-section-xlarge@m uk-panel"
+      className={`uni-minting uk-section uk-section-xlarge@m uk-panel`}
     >
       <div className="uk-container">
         <div className="uk-panel uk-margin-medium-top uk-margin-2xlarge-top@m">
@@ -42,13 +44,14 @@ const HomeThreeMinting = () => {
                   alt="Divider"
                 />
                 <p className="uk-text-xlarge@m">
-                Smart contract interactions on Soroban have never been easier with SmartDeploy.
+                  Smart contract interactions on Soroban have never been easier
+                  with SmartDeploy.
                 </p>
               </header>
             </div>
-            <div className="uk-panel uk-width-expand@m">
+            <div className={`uk-panel uk-width-expand@m ${styles.fixMargin}`}>
               <div
-                className="uk-grid-small uk-grid@m uk-child-width-1-2@m uk-width-2xlarge uk-grid"
+                className={`uk-grid-small uk-grid@m uk-child-width-1-1 uk-child-width-1-2@m uk-width-2xlarge uk-grid ${styles.customGrid}`}
                 data-uk-grid="masonry: true;"
                 data-anime="targets: > * > *; opacity:[0, 1]; translateY:[24, 0]; onview: -250; delay: anime.stagger(100);"
               >
@@ -158,4 +161,4 @@ const HomeThreeMinting = () => {
     </div>
   );
 };
-export default HomeThreeMinting;
+export default Features;
