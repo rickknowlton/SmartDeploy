@@ -151,7 +151,7 @@ const Hero = () => {
                     </div>
                     <a
                       className="uni-circle-text uk-background-white dark:uk-background-gray-80 uk-box-shadow-large uk-visible@m"
-                      href="#view_in_opensea"
+                      href="#"
                     >
                       <svg
                         className="uni-circle-text-path uk-text-secondary uni-animation-spin"
