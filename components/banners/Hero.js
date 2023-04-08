@@ -1,4 +1,4 @@
-const HeroBannerOne = () => {
+const Hero = () => {
   return (
     <>
       <div
@@ -10,14 +10,14 @@ const HeroBannerOne = () => {
           data-uk-height-viewport=""
         >
           <img
-            className="uk-position-top-left uk-position-fixed uk-blur-large"
+            className="uk-position-top-left uk-position-fixed uk-blur-large object-x"
             style={{ left: "-4%", top: "-4%" }}
             width="500"
             src="images/gradient-circle.svg"
             alt="Circle"
           />
           <img
-            className="uk-position-bottom-right uk-position-fixed uk-blur-large"
+            className="uk-position-bottom-right uk-position-fixed uk-blur-large object-x"
             style={{ right: "-4%", bottom: "-4%" }}
             width="500"
             src="images/gradient-circle.svg"
@@ -53,7 +53,7 @@ const HeroBannerOne = () => {
                     data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 100;"
                   >
                     <img
-                      className="uk-position-top-left"
+                      className="uk-position-top-left object-x"
                       width="14"
                       src="images/objects/violet-ball-blur.png"
                       alt="object"
@@ -61,7 +61,7 @@ const HeroBannerOne = () => {
                       data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 400;"
                     />
                     <img
-                      className="uk-position-left"
+                      className="uk-position-left object-x"
                       width="16"
                       src="images/objects/circle-01.png"
                       alt="object"
@@ -69,7 +69,7 @@ const HeroBannerOne = () => {
                       data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 420;"
                     />
                     <img
-                      className="uk-position-bottom-left"
+                      className="uk-position-bottom-left object-x"
                       width="24"
                       src="images/objects/violet-ball-blur.png"
                       alt="object"
@@ -80,7 +80,7 @@ const HeroBannerOne = () => {
                       SmartDeploy
                     </h2>
                     <p className="uk-text-xlarge uk-width-xlarge@m uk-text-muted">
-                      Deploy and share your own smart contract on the Soroban network and leverage the full power of the Stellar blockchain.
+                    Easily manage smart contracts on Soroban with our all-in-one platform for publishing, deploying, invoking, and upgrading contracts.
                     </p>
                     <a
                       href="#"
@@ -184,4 +184,4 @@ const HeroBannerOne = () => {
   );
 };
 
-export default HeroBannerOne;
+export default Hero;

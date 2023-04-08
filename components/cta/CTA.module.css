@@ -1,0 +1,42 @@
+.star {
+    position: absolute;
+  }
+  
+  .starTopLeft {
+    top: 0%;
+    left: -16%;
+  }
+  
+  .starBottomRight {
+    bottom: 16%;
+    right: -12%;
+  }
+  
+  .starTopRight {
+    top: 0%;
+    right: -16%;
+  }
+  
+  .starBottomLeft {
+    bottom: 16%;
+    left: -12%;
+  }
+  
+  @media (max-width: 767px) {
+    .starTopLeft {
+      left: 0%;
+    }
+  
+    .starBottomRight {
+      right: 2%;
+    }
+  
+    .starTopRight {
+      right: 0%;
+    }
+  
+    .starBottomLeft {
+      left: 2%;
+    }
+  }
+  

@@ -24152,6 +24152,10 @@ html.bp-m .uni-artist-content {
   display: inline-flex;
   animation: bounce 3s linear 0s infinite
 }
+.uni-animation-bounce-2 {
+  display: inline-flex;
+  animation: bounce 5s linear 0s infinite
+}
 .uni-animation-fade {
   display: inline-flex;
   animation: fade 2s linear 0s infinite
@@ -24672,6 +24676,9 @@ option {
 .uk-dark option {
   background-color: #131313;
   color: #fff
+}
+.object-x {
+  display: none;
 }
 @media (min-width:960px){
   #uni_connect_wallet .uk-grid-stack,

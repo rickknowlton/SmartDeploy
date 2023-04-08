@@ -7,21 +7,21 @@ const HomeThreeMinting = () => {
       <div className="uk-container">
         <div className="uk-panel uk-margin-medium-top uk-margin-2xlarge-top@m">
           <img
-            className="uk-position-top-left uk-text-secondary"
+            className="uk-position-top-left uk-text-secondary object-x"
             width="16"
             src="images/objects/circle-01.png"
             alt="Object"
             style={{ top: "-12%", left: "8%" }}
           />
           <img
-            className="uk-position-bottom-right uk-text-primary"
+            className="uk-position-top-right uk-text-primary object-x"
             width="24"
-            src="images/objects/circle-02.png"
+            src="images/objects/orange-ball-blur.png"
             alt="Object"
-            style={{ bottom: "16%", right: "-8%" }}
+            style={{ top: "-16%", left: "-8%" }}
           />
           <img
-            className="uk-position-bottom-left uk-text-muted"
+            className="uk-position-bottom-left uk-text-muted object-x"
             width="28"
             src="images/objects/x.png"
             alt="Object"
@@ -42,7 +42,7 @@ const HomeThreeMinting = () => {
                   alt="Divider"
                 />
                 <p className="uk-text-xlarge@m">
-                  Deploying your smart contract to the Soroban network is easy with SmartDeploy.
+                Smart contract interactions on Soroban have never been easier with SmartDeploy.
                 </p>
               </header>
             </div>
@@ -93,7 +93,8 @@ const HomeThreeMinting = () => {
                             Deploy.
                           </h3>
                           <p className="description uk-text-muted dark:uk-text-gray-40">
-                            Deploy a contract with a unique name to the Soroban network.
+                            Deploy a contract with a unique name to the Soroban
+                            network.
                           </p>
                         </div>
                       </div>
@@ -141,7 +142,8 @@ const HomeThreeMinting = () => {
                             Upgrade.
                           </h3>
                           <p className="description uk-text-muted dark:uk-text-gray-40">
-                            Upgrade your contract to the latest version with just a click.
+                            Upgrade your contract to the latest version with
+                            just a click.
                           </p>
                         </div>
                       </div>

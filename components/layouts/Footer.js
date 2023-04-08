@@ -9,28 +9,28 @@ const Footer = ({ footerSetting = {} }) => {
       <div className="uk-container">
         <div className="uk-panel">
           <img
-            className="uk-position-top-left"
+            className="uk-position-top-left object-x"
             width="32"
             src="images/objects/x.png"
             alt="object"
             style={{ top: "32%", left: "16%" }}
           />
           <img
-            className="uk-position-top-right"
+            className="uk-position-top-right object-x"
             width="16"
             src="images/objects/x.png"
             alt="object"
             style={{ top: "8%", right: "16%" }}
           />
           <img
-            className="uk-position-bottom-right"
+            className="uk-position-bottom-right object-x"
             width="16"
             src="images/objects/circle-01.png"
             alt="object"
             style={{ bottom: "24%", right: "40%" }}
           />
           <img
-            className="uk-position-bottom-left"
+            className="uk-position-bottom-left object-x"
             width="24"
             src="images/objects/orange-ball-blur.png"
             alt="object"
@@ -56,7 +56,7 @@ const Footer = ({ footerSetting = {} }) => {
                   />{" "}
                 </a>
                 <p className="uk-text-xlarge@m uk-margin-medium-top@m">
-                Deploy and share your own smart contract on the Soroban network and leverage the full power of the Stellar blockchain.
+                Easily manage smart contracts on Soroban with our all-in-one platform for publishing, deploying, invoking, and upgrading contracts.
                 </p>
                 <ul className="uk-subnav uk-subnav-small uk-flex-center uk-text-gray-40 uk-margin-top uk-margin-medium-top@m">
                   <li>

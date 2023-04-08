@@ -45,7 +45,7 @@ const FaqOne = () => {
                             <li>
                                 <Link className="uk-accordion-title uk-h5@m" href="#">Can I only deploy to the Stellar blockchain?</Link>
                                 <div className="uk-accordion-content uk-padding-small-bottom">
-                                    <p className="uk-text-small uk-text-large@m uk-text-muted">SmartDeploy works with the Soroban platform which works well with Stellar it doesn't depend on or require Stellar at all, and can be used by any transaction processor, including other blockchains, L2s, and permissioned ledgers.</p>
+                                    <p className="uk-text-small uk-text-large@m uk-text-muted">SmartDeploy is designed to work seamlessly with Soroban, which can also integrate with Stellar. However, SmartDeploy does not rely on or require Stellar to function.</p>
                                 </div>
                             </li>
                         </ul>
