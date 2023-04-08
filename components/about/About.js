@@ -69,17 +69,16 @@ const About = () => {
                   the full potential of Soroban.
                 </p>
                 <div className="uk-panel uk-margin-large-top">
-                  <div className=" uk-flex-left uk-flex-center" data-uk-grid="">
+                  <div className="uk-flex-center" data-uk-grid="">
                     <div
                       className="uk-panel"
                       data-anime="targets: > *; opacity:[0, 1]; translateY:[24, 0]; delay: anime.stagger(100);"
                     >
-                      <Link
-                        href="#"
-                        className="uk-button uk-button-small uk-button-large@m uk-button-gradient uk-margin-small-top uk-flex-right uk-margin-large-top@m"
-                      >
-                        Get Started
-                      </Link>
+                      <div className="uk-width-1-1">
+                        <Link href="#" className="uk-button uk-button-large uk-button-gradient uk-margin-small-top uk-margin-large-top@m">
+                            Get Started
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
