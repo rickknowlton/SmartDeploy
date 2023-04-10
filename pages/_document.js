@@ -25,6 +25,13 @@ export default function Document() {
               `,
           }}
         />
+        {/* CookieYes Banner */}        
+        <script
+          id="cookieyes"
+          type="text/javascript"
+          src="https://cdn-cookieyes.com/client_data/fa7b2cd4294b8224aa7a3226/script.js"
+          strategy="beforeInteractive"
+        ></script>
         <link
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet"

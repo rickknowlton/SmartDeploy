@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useRouter } from "next/router";
+import Script from 'next/script';
 
 import "../assets/js/app-head.js";
 import "../assets/js/uikit-components.js";
