@@ -75,7 +75,7 @@ const About = () => {
                       data-anime="targets: > *; opacity:[0, 1]; translateY:[24, 0]; delay: anime.stagger(100);"
                     >
                       <div className="uk-width-1-1">
-                        <Link href="#" className="uk-button uk-button-large uk-button-gradient uk-margin-small-top uk-margin-large-top@m">
+                        <Link href="https://github.com/TENK-DAO/smart-deploy" className="uk-button uk-button-large uk-button-gradient uk-margin-small-top uk-margin-large-top@m">
                             Get Started
                         </Link>
                       </div>

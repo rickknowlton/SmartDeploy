@@ -83,7 +83,7 @@ const Hero = () => {
                     Easily manage smart contracts on Soroban with our all-in-one platform for publishing, deploying, invoking, and upgrading contracts.
                     </p>
                     <a
-                      href="#"
+                      href="https://github.com/TENK-DAO/smart-deploy"
                       className="uk-button uk-button-medium@m uk-button-gradient uk-margin-small-top"
                     >
                       <span>Deploy Now</span>
@@ -151,7 +151,7 @@ const Hero = () => {
                     </div>
                     <a
                       className="uni-circle-text uk-background-white dark:uk-background-gray-80 uk-box-shadow-large uk-visible@m"
-                      href="#"
+                      href="https://github.com/TENK-DAO/smart-deploy"
                     >
                       <svg
                         className="uni-circle-text-path uk-text-secondary uni-animation-spin"
