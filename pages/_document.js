@@ -25,7 +25,7 @@ export default function Document() {
         <meta property="og:url" content="https://smartdeploy.dev" />
         <meta
           property="og:image"
-          content="../public/images/demo.png"
+          content="../images/demo.png"
         />
 
         {/* Twitter Card meta tags */}
@@ -37,7 +37,7 @@ export default function Document() {
         />
         <meta
           name="twitter:image"
-          content="../public/images/demo.png"
+          content="../images/demo.png"
         />
         {/* Global Site Tag (gtag.js) - Google Analytics */}
         <script
