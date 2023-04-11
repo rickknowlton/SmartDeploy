@@ -16,7 +16,7 @@ export default function Document() {
         <meta charSet="utf-8" />
 
         {/* Open Graph meta tags */}
-        <meta property="og:title" content="SmartDeploy || Ready. Set SmartDeploy." />
+        <meta property="og:title" content="SmartDeploy || Ready. Set. SmartDeploy." />
         <meta
           property="og:description"
           content="Easily manage smart contracts on Soroban with our all-in-one platform for publishing, deploying, invoking, and upgrading contracts."
@@ -30,7 +30,7 @@ export default function Document() {
 
         {/* Twitter Card meta tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="SmartDeploy || Ready. Set SmartDeploy." />
+        <meta name="twitter:title" content="SmartDeploy || Ready. Set. SmartDeploy." />
         <meta
           name="twitter:description"
           content="Easily manage smart contracts on Soroban with our all-in-one platform for publishing, deploying, invoking, and upgrading contracts."
