@@ -3,7 +3,7 @@ import styles from "./Features.module.css";
 const Features = () => {
   return (
     <div
-      id="uni_features"
+      id="features"
       className={`uni-minting uk-section uk-section-xlarge@m uk-panel`}
     >
       <div className="uk-container">

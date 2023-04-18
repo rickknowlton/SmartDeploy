@@ -2,7 +2,7 @@ import Link from "next/link";
 const About = () => {
   return (
     <div
-      id="uni_about"
+      id="about"
       className="uni-about uk-section uk-section-xlarge@m uk-panel"
     >
       <div className="uk-container">

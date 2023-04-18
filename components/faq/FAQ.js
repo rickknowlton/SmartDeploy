@@ -4,7 +4,7 @@ const FAQ = () => {
   return (
     <>
       <div
-        id="uni_faq"
+        id="faq"
         className="uni-faq uk-section uk-section-large@m uk-panel uk-overflow-hidden uk-padding-2xlarge-bottom@m"
       >
         <div className="uk-container">

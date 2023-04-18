@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const ConnectWallet =() => {
     return(
-        <div id="uni_connect_wallet" className="uk-modal-full uk-modal" data-uk-modal>
+        <div id="connect_wallet" className="uk-modal-full uk-modal" data-uk-modal>
             <div className="uk-modal-dialog">
                 <div className="uk-position-top uk-position-z-index-negative" data-uk-height-viewport="">
                     <div className="uk-position-cover uk-background-cover uk-opacity-10 dark:uk-hidden" style={{backgroundImage:'url("images/gradient-01.png")'}}></div>

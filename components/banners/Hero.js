@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <>
       <div
-        id="uni_hero"
+        id="hero"
         className="uni-hero uk-section uk-section-xlarge uk-padding-remove-bottom uk-panel"
       >
         <div

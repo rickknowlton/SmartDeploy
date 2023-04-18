@@ -50,13 +50,13 @@ const Header = ({ headerSetting = {} }) => {
                       <a href="/">Home</a>
                     </li>
                     <li>
-                      <a href="/#uni_about">About</a>
+                      <a href="/#about">About</a>
                     </li>
                     <li>
-                      <a href="/#uni_features">Features</a>
+                      <a href="/#features">Features</a>
                     </li>
                     <li>
-                      <a href="/#uni_faq">FAQ</a>
+                      <a href="/#faq">FAQ</a>
                     </li>
                   </ul>
                   <div className="uk-navbar-item">
@@ -73,7 +73,7 @@ const Header = ({ headerSetting = {} }) => {
                       </li>
                     </ul>
                     {/* <a
-                      href="#uni_connect_wallet"
+                      href="#connect_wallet"
                       className="uk-button uk-button-medium@m uk-button-default uk-button-outline uk-margin-left uk-visible@l"
                       data-uk-toggle=""
                     >
@@ -83,13 +83,13 @@ const Header = ({ headerSetting = {} }) => {
 
                   <div className="uk-navbar-item uk-hidden@m">
                     {/* <a
-                      href="#uni_connect_wallet"
+                      href="#connect_wallet"
                       className="uk-button uk-button-medium@m uk-button-icon uk-hidden@m uk-margin-small-right"
                       data-uk-toggle=""
                     >
                       <i className="uk-icon unicon-wallet"></i>
                     </a> */}
-                    <a href="#uni_mobile_menu" data-uk-toggle="">
+                    <a href="#mobile_menu" data-uk-toggle="">
                       <i className="uk-icon uk-icon-medium unicon-menu"></i>
                     </a>
                   </div>

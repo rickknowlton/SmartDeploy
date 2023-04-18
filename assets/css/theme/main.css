@@ -20767,19 +20767,6 @@ html.bp-xl .uk-subnav-collapse\@xl > * {
 .uk-label-darkgrey {
   background-color: var(--color-darkgrey)
 }
-/* .uk-accordion-title {
-  position: relative;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  align-items: center;
-  font-size: var(--accordion-font-size, 1rem);
-  font-weight: var(--accordion-font-weight, 700);
-  text-transform: var(--accordion-font-transform, initial);
-  color: var(--accordion-color-text);
-  border: 0
-} */
-
 .uk-accordion > li + li {
   margin-top: var(--accordion-margin);
   padding-top: var(--accordion-padding);
@@ -20788,7 +20775,6 @@ html.bp-xl .uk-subnav-collapse\@xl > * {
 .uk-accordion > li.uk-open .uk-accordion-title {
   color: var(--accordion-color-text-active)
 }
-
 .uk-accordion-title::before {
   display: inline-block;
   width: 20px;
@@ -20800,11 +20786,9 @@ html.bp-xl .uk-subnav-collapse\@xl > * {
   line-height: 20px;
   cursor: pointer;
 }
-
 .uk-accordion-content {
   position: relative;
 }
-
 .uk-open .uk-accordion-content::before {
   position: absolute;
   top: 50%;
@@ -24707,11 +24691,11 @@ option {
   color: #fff
 }
 @media (min-width:960px){
-  #uni_connect_wallet .uk-grid-stack,
-#uni_connect_wallet.uk-modal-full .uk-modal-dialog{
+  #connect_wallet .uk-grid-stack,
+#connect_wallet.uk-modal-full .uk-modal-dialog{
   height: 100vh !important;
 }
-#uni_connect_wallet.uk-modal-full .uk-modal-dialog .uk-flex-middle{
+#connect_wallet.uk-modal-full .uk-modal-dialog .uk-flex-middle{
   display: flex;
   height: 100vh;
   align-items: center;
@@ -24725,10 +24709,10 @@ option {
   html.bp-m .uk-padding-3xlarge-top{
     padding-top: 128px !important;
   }
-  html.bp-m #uni_roadmap .uk-width-4-12\@m{
+  html.bp-m #roadmap .uk-width-4-12\@m{
     width: 100%;
   }
-  html.bp-l #uni_connect_wallet .uk-h2\@l{
+  html.bp-l #connect_wallet .uk-h2\@l{
     font-size: 32px !important;
   }
   html.bp-m .uni-hero-4.uk-section-2xlarge{
@@ -24764,7 +24748,7 @@ option {
     grid-column: 12;
     width: 100%;
   }
-  html.bp-m #uni_hero .uk-h2, html.bp-m #uni_hero .uk-heading-d3\@m{
+  html.bp-m #hero .uk-h2, html.bp-m #hero .uk-heading-d3\@m{
     font-size: 56px !important;
   }
   html.bp-m .uk-width-xlarge\@m{
@@ -24779,20 +24763,20 @@ option {
   html.bp-m .uni-hero .uk-width-4-12\@m{
     width:25%
   }
-  html.bp-m #uni_whyus .uk-width-4-12\@m{
+  html.bp-m #whyus .uk-width-4-12\@m{
     width:100%;
   }
-  #uni_team .uk-width-1-6\@m{
+  #team .uk-width-1-6\@m{
     width: 100%;
   }
   html.bp-m .uk-grid-xlarge\@m > .uk-grid-margin{
     margin-top: 32px !important;
   }
-  html.bp-m  #uni_numbers .uk-panel div.gap-2{
+  html.bp-m  #numbers .uk-panel div.gap-2{
     margin-top: 50px;
   }
 
-  html.bp-m #uni_numbers .uk-margin\@m{
+  html.bp-m #numbers .uk-margin\@m{
     margin-bottom:7px !important
   }
   .gap-about,

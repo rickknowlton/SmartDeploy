@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const MobileMenu = () => {
     return(
-        <div id="uni_mobile_menu" className="uni-mobile-menu uk-offcanvas" data-uk-offcanvas="mode: push; overlay: true; flip: true; selPanel: .uk-offcanvas-bar-panel;">
+        <div id="mobile_menu" className="uni-mobile-menu uk-offcanvas" data-uk-offcanvas="mode: push; overlay: true; flip: true; selPanel: .uk-offcanvas-bar-panel;">
         <div className="uk-offcanvas-bar-panel uk-panel dark:uk-background-gray-100">
             <div className="uni-mobile-menu-wrap uk-flex-column uk-flex-between" data-uk-height-viewport="offset-bottom: true;">
                 <div className="uni-mobile-menu-content">
@@ -23,9 +23,9 @@ const MobileMenu = () => {
                             <ul className="uk-nav uk-nav-default uk-nav-center">
                                 <li className="uk-nav-header">Navigation</li>
                                 <li><Link href="/">Home</Link></li>
-                                <li><Link href="/#uni_about">About</Link></li>
-                                <li><Link href="/#uni_features">Features</Link></li>
-                                <li><Link href="/#uni_faq">FAQ</Link></li>
+                                <li><Link href="/#about">About</Link></li>
+                                <li><Link href="/#features">Features</Link></li>
+                                <li><Link href="/#faq">FAQ</Link></li>
                             </ul>
                         </div>
                     </div>
