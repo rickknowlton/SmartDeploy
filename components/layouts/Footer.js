@@ -60,12 +60,12 @@ const Footer = ({ footerSetting = {} }) => {
                 </p>
                 <ul className="uk-subnav uk-subnav-small uk-flex-center uk-text-gray-40 uk-margin-top uk-margin-medium-top@m">
                   <li>
-                    <a href="#">
+                    <a href="https://twitter.com/TENKDAO">
                       <span className="uk-icon uk-icon-medium@m unicon-logo-twitter"></span>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://discord.gg/6fKqnSfr">
                       <span className="uk-icon uk-icon-medium@m unicon-logo-discord"></span>
                     </a>
                   </li>

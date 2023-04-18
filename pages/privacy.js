@@ -13,22 +13,17 @@ export default function SmartDeployTemplate() {
                         </div>
                     </header>
                     <div className="uk-panel uk-text-medium uk-text-xlarge@m uk-margin uk-margin-xlarge-top@m">
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-                        <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-                        <h3 className="uk-h4 uk-h3@m uk-margin-large-top">Determination of personal information of users</h3>
-                        <ul className="uk-list uk-list-decimal uk-margin-medium@m">
-                            <li>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</li>
-                            <li>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</li>
-                            <li>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</li>
-                        </ul>
-                        <h3 className="uk-h4 uk-h3@m uk-margin-large-top@m">Reasons for collecting and processing user personal information</h3>
-                        <ul className="uk-list uk-list-decimal uk-margin-medium@m">
-                            <li>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</li>
-                            <li>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</li>
-                            <li>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</li>
-                        </ul>
-                        <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+                        <p>At SmartDeploy, we value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and disclose data when you use our website.</p>
+                        <h3 className="uk-h4 uk-h3@m uk-margin-large-top">What information do we collect?</h3>
+                        <p>We may collect personal information such as your name and email address when you voluntarily submit it to us. We also use cookies and similar technologies to collect anonymous browsing data.</p>
+                        <h3 className="uk-h4 uk-h3@m uk-margin-large-top">How do we use your information?</h3>
+                        <p>We may use your personal information to communicate with you. We also use cookies and analytics to understand how our users navigate through our website and in turn improve overall experience.</p>
+                        <h3 className="uk-h4 uk-h3@m uk-margin-large-top">How do we protect your information?</h3>
+                        <p>We take reasonable measures to protect your personal information from unauthorized access, use, or disclosure. We use a variety of security technologies and procedures to help protect your personal information.</p>
+                        <h3 className="uk-h4 uk-h3@m uk-margin-large-top">You have a choice! Always.</h3>
+                        <p className="uk-margin-large-bottom">You can choose to disable cookies in your browser settings or opt-out of analytics tracking. However, please note that some features of our website may not function properly without cookies. You can also contact us to update or delete your personal information.</p>                                                
+                        <hr></hr>
+                        <p className="uk-text-muted uk-margin-large-small">If you have any questions or concerns about our Privacy Policy or <a href="/terms">Terms and Conditions</a>, please <a href="mailto:go@smartdeploy.dev">contact us</a>.</p>                        
                         <p className="uk-text-meta uk-margin-large-top@m">Last updated: Apr 1, 2023</p>
                     </div>
                 </div>

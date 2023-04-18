@@ -20767,7 +20767,7 @@ html.bp-xl .uk-subnav-collapse\@xl > * {
 .uk-label-darkgrey {
   background-color: var(--color-darkgrey)
 }
-.uk-accordion-title {
+/* .uk-accordion-title {
   position: relative;
   display: flex;
   flex-direction: row-reverse;
@@ -20778,7 +20778,8 @@ html.bp-xl .uk-subnav-collapse\@xl > * {
   text-transform: var(--accordion-font-transform, initial);
   color: var(--accordion-color-text);
   border: 0
-}
+} */
+
 .uk-accordion > li + li {
   margin-top: var(--accordion-margin);
   padding-top: var(--accordion-padding);
@@ -20787,6 +20788,33 @@ html.bp-xl .uk-subnav-collapse\@xl > * {
 .uk-accordion > li.uk-open .uk-accordion-title {
   color: var(--accordion-color-text-active)
 }
+
+.uk-accordion-title::before {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.uk-accordion-content {
+  position: relative;
+}
+
+.uk-open .uk-accordion-content::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 2px;
+  background: #ccc;
+}
+
 .uk-accordion-divider {
   padding-bottom: 30px !important;
   border-bottom: 1px solid rgba(190, 190, 190, 0.4)

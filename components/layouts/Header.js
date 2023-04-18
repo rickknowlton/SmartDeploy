@@ -50,24 +50,24 @@ const Header = ({ headerSetting = {} }) => {
                       <a href="/">Home</a>
                     </li>
                     <li>
-                      <a href="#uni_about">About</a>
+                      <a href="/#uni_about">About</a>
                     </li>
                     <li>
-                      <a href="#uni_features">Features</a>
+                      <a href="/#uni_features">Features</a>
                     </li>
                     <li>
-                      <a href="#uni_faq">FAQ</a>
+                      <a href="/#uni_faq">FAQ</a>
                     </li>
                   </ul>
                   <div className="uk-navbar-item">
                     <ul className="uk-subnav uk-subnav-small uk-visible@m">
                       <li>
-                        <Link href="#">
+                        <Link href="https://twitter.com/TENKDAO">
                           <i className="uk-icon unicon-logo-twitter"></i>
                         </Link>
                       </li>
                       <li>
-                        <Link href="#">
+                        <Link href="https://discord.gg/6fKqnSfr">
                           <i className="uk-icon unicon-logo-discord"></i>
                         </Link>
                       </li>

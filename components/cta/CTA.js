@@ -16,7 +16,7 @@ const CTA = () => {
               <span className="uk-text-gradient">DISCORD</span>
             </h2>
             <p className="uk-text-xlarge@m">Read. Set. SmartDeploy!</p>
-            <Link href="https://github.com/TENK-DAO/smart-deploy" className="uk-button uk-button-small uk-button-large@m uk-button-gradient uk-margin-small-top uk-margin-large-top@m">Join the Discord</Link>
+            <Link href="https://discord.gg/6fKqnSfr" className="uk-button uk-button-small uk-button-large@m uk-button-gradient uk-margin-small-top uk-margin-large-top@m">Join the Discord</Link>
           </div>
         </div>
       </div>
