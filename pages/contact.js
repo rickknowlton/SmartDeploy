@@ -208,9 +208,9 @@ export default function SmartDeployTemplate() {
                   >
                     <a className="uk-alert-close" uk-close></a>
                     {!captchaValue ? (
-                    <p>Please fill out reCaptcha and try again.</p>
-                    ) : (                   
-                    <p>Error sending your message. Please try again.</p>
+                      <p>Please fill out reCaptcha and try again.</p>
+                    ) : (
+                      <p>Error sending your message. Please try again.</p>
                     )}
                   </div>
                 )}
@@ -225,17 +225,35 @@ export default function SmartDeployTemplate() {
                         little more about using SmartDeploy? Feel free to hit us
                         up!
                       </p>
-                    </div>
-                    <div className="uk-panel">
+                      <h2 className="uk-h6 uk-h6@m uk-margin-large-top">Connect</h2>
                       <ul className="uk-list">
                         <li>
                           <a
                             href="mailto:go@smartdeploy.dev"
                             className="uk-link-reset"
                           >
+                            <i className="uk-icon-small unicon-email uk-margin-xsmall-right"></i>
                             go@smartdeploy.dev
                           </a>
                         </li>
+                        {/* <li>
+                          <a
+                            href="#"
+                            className="uk-link-reset"
+                          >
+                            <i className="uk-icon unicon-logo-discord uk-margin-xsmall-right"></i>
+                            Discord
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="#"
+                            className="uk-link-reset"
+                          >
+                            <i className="uk-icon unicon-logo-twitter uk-margin-xsmall-right"></i>
+                            Twitter
+                          </a>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
