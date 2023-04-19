@@ -2819,7 +2819,8 @@
   --alert-color-text: var(--color-gray-100);
   /*
    * Css vars alert-border
-   */--alert-border-width: 0;
+   */
+  --alert-border-width: 0;
   --alert-border-radius: var(--radius);
   --alert-padding: 15px;
   /*
@@ -20654,7 +20655,13 @@ html.bp-xl .uk-subnav-collapse\@xl > * {
 }
 .uk-alert-success {
   background-color: var(--color-success-10);
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 10px;
   color: var(--color-success-60)
+}
+.uk-alert-success p {
+  margin: 0px;
 }
 .uk-alert-warning {
   background-color: var(--color-warning-10);
@@ -20662,7 +20669,13 @@ html.bp-xl .uk-subnav-collapse\@xl > * {
 }
 .uk-alert-danger {
   background-color: var(--color-danger-10);
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 10px;
   color: var(--color-danger-60)
+}
+.uk-alert-danger p {
+  margin: 0px;
 }
 .uk-alert-gray {
   background-color: var(--color-gray-10);
@@ -20701,6 +20714,10 @@ html.bp-xl .uk-subnav-collapse\@xl > * {
   bottom: 0;
   margin: auto;
   opacity: 1
+}
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
 }
 .uk-label {
   display: inline-flex;

@@ -28,6 +28,12 @@ const MobileMenu = () => {
                                 <li><Link href="/#faq">FAQ</Link></li>
                             </ul>
                         </div>
+                        <hr></hr>
+                        <div className="uk-panel">
+                            <ul className="uk-nav uk-nav-default uk-nav-center">
+                                <li><Link href="/contact">Contact</Link></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

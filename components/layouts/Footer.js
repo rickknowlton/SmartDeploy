@@ -84,9 +84,12 @@ const Footer = ({ footerSetting = {} }) => {
                   <li>
                     <Link href="terms">Terms of Use</Link>
                   </li>
-                  <li className="uk-margin-small-left">
-                    <ScrollUp />
+                  <li>
+                    <Link href="contact">Contact Us</Link>
                   </li>
+                  {/* <li className="uk-margin-small-left">
+                    <ScrollUp />
+                  </li> */}
                 </ul>
               </div>
               <div className="uk-flex-first@m uk-flex-center">
