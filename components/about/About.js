@@ -45,7 +45,7 @@ const About = () => {
                   ></path>
                 </svg>
                 <img
-                  src="images/astro.png"
+                  src="images/astro.webp"
                   alt="Artwork"
                   className="uk-cover"
                   style={{ maxWidth: "66%", maxHeight: "66%" }}
