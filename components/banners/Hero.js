@@ -76,11 +76,41 @@ const Hero = () => {
                       style={{ bottom: "-26%", left: "16%" }}
                       data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 440;"
                     />
-                    <h2 className="uk-h2 uk-heading-d3@m uk-margin-small uk-margin@m">
-                      SmartDeploy
-                    </h2>
+                    <div className="brand-item">
+                      <svg
+                        id="a"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 1271.97 232.87"
+                        className="uk-width-xsmall uk-svg brand-svg"
+                      >
+                        <text
+                          transform="translate(1151.61 166.85)"
+                          font-family="RocGrotesk-Bold, 'Roc Grotesk'"
+                          font-size="201.27"
+                          font-weight="700"
+                        >
+                          <tspan x="0" y="0">
+                            y
+                          </tspan>
+                        </text>
+                        <text
+                          transform="translate(0 166.85)"
+                          font-family="RocGrotesk-Bold, 'Roc Grotesk'"
+                          font-size="201.27"
+                          font-weight="700"
+                        >
+                          <tspan x="0" y="0">
+                            SmartDepl
+                          </tspan>
+                        </text>
+                        <path d="m1140.87,63.6c-3.74,13.56-10.94,29.4-21.16,45.32-16.09,25.06-35.54,43.89-51.03,51.01,3.43,2.08,7.13,3.76,11.01,5.01,17.51-5.33,39.21-30.2,53.6-63.54,1.84-4.27,3.48-8.51,4.95-12.7-2.22,11.04-6.03,23.22-11.41,35.68-7.39,17.12-16.55,32-25.87,43,3.62-.29,7.28-.94,10.93-1.97,28.28-8.03,45.1-36.02,37.57-62.53-1.91-6.71-5.19-12.68-9.49-17.72.8-7.3,1.37-15.48.9-21.56Z" />
+                        <path d="m1084.64,69.43c-28.28,8.03-45.1,36.02-37.57,62.53.22.78.47,1.56.73,2.32,1.39,2.24,3.2,4.02,5.43,5.26,16.24,9,48.75-13.84,72.63-51.02,2.28-3.56,4.38-7.11,6.34-10.65-12.76-9.64-30.28-13.34-47.55-8.44Zm66.97-20.15c-8.64,4.8-9.78,4.64-16.2-2.24,4.78,8.02,4.58,9.1-2.92,15.42,8.64-4.8,9.77-4.64,16.2,2.24-4.78-8.02-4.58-9.1,2.92-15.42Z" />
+                      </svg>
+                    </div>
                     <p className="uk-text-xlarge uk-width-xlarge@m uk-text-muted">
-                    Easily manage smart contracts on Soroban with our all-in-one platform for publishing, deploying, invoking, and upgrading contracts.
+                      Easily manage smart contracts on Soroban with our
+                      all-in-one platform for publishing, deploying, invoking,
+                      and upgrading contracts.
                     </p>
                     <a
                       href="https://github.com/TENK-DAO/smart-deploy"

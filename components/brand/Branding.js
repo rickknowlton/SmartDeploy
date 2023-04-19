@@ -17,7 +17,7 @@ const BrandOne = () => {
               data-uk-grid
             >
               {/* Stellar */}
-              <div className="bran-item">
+              <div className="brand-item">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 899.93 200"
@@ -49,7 +49,7 @@ const BrandOne = () => {
                 </svg>
               </div>
               {/* Soroban */}
-              <div className="bran-item">
+              <div className="brand-item">
                 <svg
                   width="504"
                   height="87"
@@ -80,7 +80,7 @@ const BrandOne = () => {
                 </svg>
               </div>
               {/* TENK */}
-              <div className="bran-item">
+              <div className="brand-item">
                 <svg
                   version="1.0"
                   xmlns="http://www.w3.org/2000/svg"
@@ -123,7 +123,7 @@ l-177 -200 -5 870 -5 870 -312 3 -313 2 0 -1395z"
                 </svg>
               </div>
               {/* SmartDeploy */}
-              <div className="bran-item">
+              <div className="brand-item">
                 <svg
                   id="a"
                   xmlns="http://www.w3.org/2000/svg"

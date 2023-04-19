@@ -24394,6 +24394,10 @@ html.bp-m .uni-artist-content {
   word-wrap: normal;
   word-break: keep-all
 }
+.brand-svg {
+  width: 100% !important; 
+  height: 100% !important; 
+}
 html.bp-s .uni-roadmap-switcher {
   flex-direction: column;
   gap: 24px;
@@ -24803,5 +24807,10 @@ option {
 @media (max-width: 767px) {
   .object-x {
       display: none;
+    }
+    .brand-svg {
+      width: 150% !important; /* Double the width */
+      height: 150% !important; /* Double the height */
+      padding: 20px 30px 0px !important;
     }
 }
