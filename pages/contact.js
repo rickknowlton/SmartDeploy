@@ -199,7 +199,6 @@ export default function SmartDeployTemplate() {
                     <p>Your message has been sent successfully!</p>
                   </div>
                 )}
-
                 {showAlert && alertType === "danger" && (
                   <div
                     ref={alertRef}
@@ -208,7 +207,11 @@ export default function SmartDeployTemplate() {
                     uk-alert
                   >
                     <a className="uk-alert-close" uk-close></a>
+                    {!captchaValue ? (
+                    <p>Please fill out reCaptcha and try again.</p>
+                    ) : (                   
                     <p>Error sending your message. Please try again.</p>
+                    )}
                   </div>
                 )}
               </div>
