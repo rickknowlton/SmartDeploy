@@ -170,7 +170,7 @@ const Hero = () => {
                           <div className="uni-item-featured-image uk-panel uk-flex-middle uk-flex-center">
                             <div className="uk-panel uk-image-middle">
                               <img
-                                src="images/sd-rocket.png"
+                                src="images/sd-rocket.webp"
                                 alt="Artwork"
                                 className="uk-radius-small uk-radius-large@m"
                               />
