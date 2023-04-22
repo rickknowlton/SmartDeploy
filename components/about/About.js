@@ -59,7 +59,7 @@ const About = () => {
                   ABOUT <span className="uk-text-gradient">SmartDeploy</span>
                 </h3>
                 <p className="uk-text-large">
-                  Smart Deploy is a contract management DAO that streamlines
+                  SmartDeploy is a contract management DAO that streamlines
                   smart contract deployment on Soroban by providing a
                   user-friendly and secure platform.
                 </p>

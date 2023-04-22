@@ -25,11 +25,11 @@ const FAQ = () => {
             >
               <li>
                 <Link className="uk-accordion-title uk-h5@m" href="#">
-                  What is Smart Deploy?
+                  What is SmartDeploy?
                 </Link>
                 <div className="uk-accordion-content uk-padding-small-bottom">
                   <p className="uk-text-small uk-text-large@m uk-text-muted">
-                    Smart Deploy is a contract management DAO that streamlines
+                    SmartDeploy is a contract management DAO that streamlines
                     smart contract deployment on Soroban by providing a
                     user-friendly and secure platform.
                   </p>
@@ -37,11 +37,11 @@ const FAQ = () => {
               </li>
               <li>
                 <Link className="uk-accordion-title uk-h5@m" href="#">
-                  How much does it cost to use Smart Deploy?
+                  How much does it cost to use SmartDeploy?
                 </Link>
                 <div className="uk-accordion-content uk-padding-small-bottom">
                   <p className="uk-text-small uk-text-large@m uk-text-muted">
-                    Smart Deploy operates on a commission-based revenue model,
+                    SmartDeploy operates on a commission-based revenue model,
                     meaning we take a small commission when developers deploy
                     and use contracts on our platform.
                   </p>
@@ -49,12 +49,12 @@ const FAQ = () => {
               </li>
               <li>
                 <Link className="uk-accordion-title uk-h5@m" href="#">
-                  Is Smart Deploy secure?
+                  Is SmartDeploy secure?
                 </Link>
                 <div className="uk-accordion-content uk-padding-small-bottom">
                   <p className="uk-text-small uk-text-large@m uk-text-muted">
                     {" "}
-                    Smart Deploy follows best practices for smart contract
+                    SmartDeploy follows best practices for smart contract
                     security and leverages the security features of the Stellar
                     network, including multi-sig capabilities and asset
                     freezing.
@@ -63,13 +63,13 @@ const FAQ = () => {
               </li>
               <li>
                 <Link className="uk-accordion-title uk-h5@m" href="#">
-                  How does Smart Deploy handle contract upgrades that are not
+                  How does SmartDeploy handle contract upgrades that are not
                   backward compatible?
                 </Link>
                 <div className="uk-accordion-content uk-padding-small-bottom">
                   <p className="uk-text-small uk-text-large@m uk-text-muted">
                     {" "}
-                    Smart Deploy uses semantic versioning to help developers
+                    SmartDeploy uses semantic versioning to help developers
                     identify backward compatibility issues. In the event of a
                     non-backward compatible upgrade, developers can choose to
                     migrate to the new contract version or continue using the
@@ -80,11 +80,11 @@ const FAQ = () => {
               <li>
                 <Link className="uk-accordion-title uk-h5@m" href="#">
                   Can I access the source code and metadata for contracts
-                  deployed on Smart Deploy?
+                  deployed on SmartDeploy?
                 </Link>
                 <div className="uk-accordion-content uk-padding-small-bottom">
                   <p className="uk-text-small uk-text-large@m uk-text-muted">
-                    Yes, Smart Deploy provides access to the source code and
+                    Yes, SmartDeploy provides access to the source code and
                     metadata for all contracts deployed on the platform.
                   </p>
                 </div>
