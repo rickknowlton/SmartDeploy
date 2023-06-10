@@ -11,7 +11,7 @@ export default function Document() {
         {/* Basic meta tags for SEO */}
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>SmartDeploy || Ready. Set SmartDeploy!</title>
+        <title>SmartDeploy || Ready. Set. SmartDeploy!</title>
         <meta
           name="description"
           content="Easily manage smart contracts on Soroban with our all-in-one platform for publishing, deploying, invoking, and upgrading contracts."
