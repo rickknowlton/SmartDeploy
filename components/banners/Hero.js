@@ -139,7 +139,7 @@ const Hero = () => {
                       and upgrading contracts.
                     </p>
                     <a
-                      href="https://github.com/TENK-DAO/smart-deploy"
+                      href="https://launch.smartdeploy.dev/"
                       className="uk-button uk-button-medium@m uk-button-gradient uk-margin-small-top"
                     >
                       <span>Deploy Now</span>
@@ -207,7 +207,7 @@ const Hero = () => {
                     </div>
                     <a
                       className="uni-circle-text uk-background-white dark:uk-background-gray-80 uk-box-shadow-large uk-visible@m"
-                      href="https://github.com/TENK-DAO/smart-deploy"
+                      href="https://launch.smartdeploy.dev/"
                     >
                       <svg
                         className="uni-circle-text-path uk-text-secondary uni-animation-spin"
