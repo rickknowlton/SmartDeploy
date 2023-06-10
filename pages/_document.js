@@ -9,14 +9,23 @@ export default function Document() {
     >
       <Head>
         {/* Basic meta tags for SEO */}
-        <title>SmartDeploy || Ready. Set SmartDeploy!</title>
-        <meta name="description" content="Easily manage smart contracts on Soroban with our all-in-one platform for publishing, deploying, invoking, and upgrading contracts." />
-        <meta name="keywords" content="smartdeploy, smart deploy, TENK, TENK DAO, stellar, stellar soroban, stellar xlm, xlm, smart contract management, soroban, smart contract deployment, user-friendly, secure platform, contract deployment, developers, tools, smart contracts, contract management, blockchain technology, DAO, decentralized finance, ethereum, cryptocurrency, NFT, tokenization, solidity, Ethereum development, smart contract security, blockchain solutions, DeFi solutions, decentralized applications, Web3, crypto assets, digital tokens, governance tokens" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>SmartDeploy || Ready. Set SmartDeploy!</title>
+        <meta
+          name="description"
+          content="Easily manage smart contracts on Soroban with our all-in-one platform for publishing, deploying, invoking, and upgrading contracts."
+        />
+        <meta
+          name="keywords"
+          content="smartdeploy, smart deploy, TENK, TENK DAO, stellar, stellar soroban, stellar xlm, xlm, smart contract management, soroban, smart contract deployment, user-friendly, secure platform, contract deployment, developers, tools, smart contracts, contract management, blockchain technology, DAO, decentralized finance, ethereum, cryptocurrency, NFT, tokenization, solidity, Ethereum development, smart contract security, blockchain solutions, DeFi solutions, decentralized applications, Web3, crypto assets, digital tokens, governance tokens"
+        />
 
         {/* Open Graph meta tags */}
-        <meta property="og:title" content="SmartDeploy || Ready. Set. SmartDeploy!" />
+        <meta
+          property="og:title"
+          content="SmartDeploy || Ready. Set. SmartDeploy!"
+        />
         <meta
           property="og:description"
           content="Easily manage smart contracts on Soroban with our all-in-one platform for publishing, deploying, invoking, and upgrading contracts."
@@ -30,7 +39,10 @@ export default function Document() {
 
         {/* Twitter Card meta tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="SmartDeploy || Ready. Set. SmartDeploy!" />
+        <meta
+          name="twitter:title"
+          content="SmartDeploy || Ready. Set. SmartDeploy!"
+        />
         <meta
           name="twitter:description"
           content="Easily manage smart contracts on Soroban with our all-in-one platform for publishing, deploying, invoking, and upgrading contracts."
