@@ -13,7 +13,7 @@ export default function SmartDeploy() {
     <Layout>
       <Head>
         <link rel="favicon" href="/favicon.ico" />
-        <title>SmartDeploy || Ready. Set. SmartDeploy.</title>
+        <title>SmartDeploy || Ready. Set. SmartDeploy!</title>
       </Head>
       <Hero />
       <Branding />
